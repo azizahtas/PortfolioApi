@@ -18,5 +18,18 @@
   "bugs": {
     "url": "https://github.com/azizahtas/PortfollioApi/issues"
   },
-  "homepage": "https://github.com/azizahtas/PortfollioApi#readme"
+  "homepage": "https://github.com/azizahtas/PortfollioApi#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "cookie-parser": "^1.4.3",
+    "express": "*",
+    "express-session": "^1.14.0",
+    "lodash": "^4.13.1",
+    "method-override": "^2.3.6",
+    "mongoose": "*",
+    "hbs": "~4.0.0"
+  },
+  "devDependencies": {
+
+  }
 }
