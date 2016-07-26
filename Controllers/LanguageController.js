@@ -17,4 +17,4 @@ LanguageRouter
     });
 
 //All Routes with /:id
-exports.module = LanguageRouter;
+module.exports = LanguageRouter;

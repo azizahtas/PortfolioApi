@@ -1,3 +1,5 @@
 module.exports.api = {
-    '/User' : require('./Controllers/UserController')
+    '/user' : require('./Controllers/UserController'),
+    '/language' : require('./Controllers/LanguageController'),
+    '/project' : require('./Controllers/ProjectController')
 };

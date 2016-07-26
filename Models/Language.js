@@ -4,10 +4,10 @@ var Schema = mongoose.Schema;
 
 var LanguageSchema = new Schema({
     name : {type : String, required : true}
-},{collection : 'Language'});
+},{collection : 'Languages'});
 
-var Language = module.exports = mongoose.model('Language',LanguageSchema,'Language');
+var Language = module.exports = mongoose.model('Language',LanguageSchema,'Languages');
 
 module.exports.getAllLanguages = function(callback){
-    Language.find({},callback);
+    Language.find({},{_id:0},{},callback);
 };
